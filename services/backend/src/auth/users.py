@@ -3,8 +3,8 @@ from fastapi.security import OAuth2PasswordRequestForm
 from passlib.context import CryptContext
 from tortoise.exceptions import DoesNotExist
 
-from src.database.models import Users
-from src.schemas.users import UserDatabaseSchema
+from database.models import Users
+from schemas.users import UserDatabaseSchema
 
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

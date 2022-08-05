@@ -9,9 +9,9 @@ from fastapi.security.utils import get_authorization_scheme_param
 from jose import JWTError, jwt
 from tortoise.exceptions import DoesNotExist
 
-from src.schemas.token import TokenData
-from src.schemas.users import UserOutSchema
-from src.database.models import Users
+from schemas.token import TokenData
+from schemas.users import UserOutSchema
+from database.models import Users
 
 
 SECRET_KEY = os.environ.get("SECRET_KEY")

@@ -6,14 +6,14 @@ from database.register import register_tortoise
 from database.config import TORTOISE_ORM
 
 # enable schemas to read relationship between models
-Tortoise.init_models(["services.backend.src.database.models.py"], "models")
+Tortoise.init_models(["database.models"], "models")
 
 """
-import 'from src.routes import users, notes' must be after 'Tortoise.init_models'
+import 'from routes import users, notes' must be after 'Tortoise.init_models'
 why?
 https://stackoverflow.com/questions/65531387/tortoise-orm-for-python-no-returns-relations-of-entities-pyndantic-fastapi
 """
-from services.backend.src.routes import users, notes
+from routes import users, notes
 
 app = FastAPI()
 

@@ -7,12 +7,12 @@ from fastapi.security import OAuth2PasswordRequestForm
 
 from tortoise.contrib.fastapi import HTTPNotFoundError
 
-import src.crud.users as crud
-from src.auth.users import validate_user
-from src.schemas.token import Status
-from src.schemas.users import UserInSchema, UserOutSchema
+import crud.users as crud
+from auth.users import validate_user
+from schemas.token import Status
+from schemas.users import UserInSchema, UserOutSchema
 
-from src.auth.jwthandler import (
+from auth.jwthandler import (
     create_access_token,
     get_current_user,
     ACCESS_TOKEN_EXPIRE_MINUTES,

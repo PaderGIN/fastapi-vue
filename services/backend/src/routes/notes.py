@@ -4,11 +4,11 @@ from fastapi import APIRouter, Depends, HTTPException
 from tortoise.contrib.fastapi import HTTPNotFoundError
 from tortoise.exceptions import DoesNotExist
 
-import src.crud.notes as crud
-from src.auth.jwthandler import get_current_user
-from src.schemas.notes import NoteOutSchema, NoteInSchema, UpdateNote
-from src.schemas.token import Status
-from src.schemas.users import UserOutSchema
+import crud.notes as crud
+from auth.jwthandler import get_current_user
+from schemas.notes import NoteOutSchema, NoteInSchema, UpdateNote
+from schemas.token import Status
+from schemas.users import UserOutSchema
 
 
 router = APIRouter()

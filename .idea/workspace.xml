@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c47f7960-b4f4-4dbd-b717-aca177d78ffc" name="Changes" comment="ok" />
+    <list default="true" id="c47f7960-b4f4-4dbd-b717-aca177d78ffc" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/auth/jwthandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/auth/jwthandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/auth/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/auth/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/crud/notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/crud/notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/crud/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/crud/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/database/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/database/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/routes/notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/routes/notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/routes/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/routes/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/schemas/notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/schemas/notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/schemas/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/schemas/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/services/frontend" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/services/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,9 +48,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/glebp/PycharmProjects",
+    "last_opened_file_path": "C:/Users/glebp/PycharmProjects/fastapi-vue/services/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -51,7 +68,30 @@
       <recent name="C:\Users\glebp\PycharmProjects\fastapi-vue\services\frontend" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.aerich">
+    <configuration name="aerich" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="fastapi-vue" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DATABASE_URL" value="postgres://postgres:123@127.0.0.1/fastapi-vue" />
+        <env name="SECRET_KEY" value="09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\glebp\PycharmProjects\fastapi-vue\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/services/backend" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="aerich" />
+      <option name="PARAMETERS" value="upgrade" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fastapi-vue" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +114,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="Python.FastAPI" nameIsGenerated="true">
+      <option name="file" value="C:\Users\glebp\PycharmProjects\fastapi-vue\services\backend\src\main.py" />
+      <module name="fastapi-vue" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DATABASE_URL" value="postgres://postgres:123@127.0.0.1/fastapi-vue" />
+        <env name="SECRET_KEY" value="09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\glebp\PycharmProjects\fastapi-vue\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/services/backend/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="FastAPI.Unnamed" />
+      <item itemvalue="Python.aerich" />
+      <item itemvalue="Python.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
@@ -96,7 +159,8 @@
       <workItem from="1659359643130" duration="4500000" />
       <workItem from="1659507563733" duration="81000" />
       <workItem from="1659507655612" duration="508000" />
-      <workItem from="1659510165728" duration="27515000" />
+      <workItem from="1659510165728" duration="32175000" />
+      <workItem from="1659697690274" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1659512447462</created>
@@ -130,6 +194,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fastapi_vue$main.coverage" NAME="main Coverage Results" MODIFIED="1659622889871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services/backend/src" />
+    <SUITE FILE_PATH="coverage/fastapi_vue$aerich.coverage" NAME="aerich Coverage Results" MODIFIED="1659710693277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services/backend" />
+    <SUITE FILE_PATH="coverage/fastapi_vue$main.coverage" NAME="main Coverage Results" MODIFIED="1659702974060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services/backend/src" />
+    <SUITE FILE_PATH="coverage/fastapi_vue$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1659705515366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services/backend/src" />
   </component>
 </project>
